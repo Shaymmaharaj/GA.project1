@@ -1,0 +1,48 @@
+.answerChoice{
+    border: 1px solid black;
+  border-radius: 5%;
+	width: 40%;
+	color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: white;
+}
+.answer {
+    text-align: center;
+  
+  }
+  
+  .questions {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .play-again {
+    visibility: visible;
+  }
+  
+  body {
+    background-image: url("https://static.nfl.com/static/content/public/static/img/share/shield.jpg");
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+  }
+.score{
+    text-align: center;
+    display: inline-block;
+    
+}
+  
+  .display {
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #403fd3;
+    height: 500px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .start {
+    position: relative;
+    bottom: -150px;
+  }
