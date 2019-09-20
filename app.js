@@ -116,7 +116,7 @@ function decrease(){
     if(timer === 0){
         stop()
         answer.innerHTML = 'time is up. the corrent answer is:' + pick.choices[pick.answer];
-
+        displayQuestion()
     }
 }
 
