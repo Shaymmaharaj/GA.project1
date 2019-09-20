@@ -139,7 +139,7 @@ function displayQuestion(){
                timer = 20
                newArray.push(pick)
                array.splice(index,1);
-               scoreCounter.innerHTML = score
+               scoreCounter.innerHTML = 'Score:' + score
                answer.innerHTML = 'correct! on to the next question'
             }else{
                 timer = 20
@@ -148,6 +148,11 @@ function displayQuestion(){
               //stop()
               answer.innerHTML = 'time is up. the corrent answer is:' + pick.choices[pick.answer];
 
+           }
+           if(array.length === 0){
+               stop();
+               questions.innerHTML = ''
+               answer.innerHTML = `game over! your final score is ${score}/10`
            }
            displayQuestion()
            
